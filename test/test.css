@@ -1,0 +1,53 @@
+.bg_test {
+    height: 250px;                  /* 高さ指定 */
+    padding:  20px;                 /* 余白指定 */
+    font-size: 20px;                /* 文字サイズ指定 */
+    background-color: powderblue;   /* 背景色指定 */
+}
+
+.bg_test2 {
+    color:  #fff;                   /* 文字色指定 */
+    height: 200px;                  /* 高さ指定 */
+    width:  200px;                  /* 幅指定 */
+    font-size:  14px;               /* 文字サイズ指定 */
+    background-color: blue;         /* 背景色指定 */
+    padding:  20px;                 /* 余白指定 */
+    float:  right;                  /* 位置指定 */
+    position:  relative;            /* 位置指定 */
+    top: 110px;                     /* 位置指定 */
+}
+
+.bg_test3 {
+    background-color: rgb(228, 224, 137);   /* 背景色指定 */
+}
+
+.bg_test4 {
+    background-color: rgb(255, 152, 0);     /* 背景色指定 */
+}
+
+.bg_test5 {
+    color: rgb(123, 32, 45);
+    color: rgb(228, 224, 137);
+}
+
+.bg_test6 {
+    color: #aa33cc;
+    color: #aa33cc80;
+    color: hsla(228, 224, 137);
+}
+
+.bg_test7 {
+    /* これらの例はすべて同じ色、ラベンダーを指定します。 */
+    hsl(270,60%,70%)
+    hsl(270, 60%, 70%)
+    hsl(270 60% 70%)
+    hsl(270deg, 60%, 70%)
+    hsl(4.71239rad, 60%, 70%)
+    hsl(.75turn, 60%, 70%)
+
+    /* これらの例はすべて同じ色、15%半透明のラベンダーを指定します。 */
+    hsl(270, 60%, 50%, .15)
+    hsl(270, 60%, 50%, 15%)
+    hsl(270 60% 50% / .15)
+    hsl(270 60% 50% / 15%)
+}
