@@ -1260,8 +1260,5 @@ static char * cursor_xpm[] = {
                                 (cpick-clamp (cdr pos) 0 resolution-y)))
           (cpick-frame-show-all))))))
 
-(global-set-key [mouse-1] 'cpick-popup-at-point)
-(global-set-key "\C-cp" 'cpick-popup-at-point)
-
 (provide 'color-picker)
 ;;; color-picker.el ends here
